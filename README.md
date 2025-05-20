@@ -70,10 +70,3 @@ Follow these steps to set up and run the project locally:
 
 To access the Admin Panel (`/admin` route), you need a user account with the 'Staff' role. You can create one by signing up through the application's signup form after temporarily enabling the role selection, or by making a direct POST request to the `/api/auth/signup` endpoint with `role: 'Staff'` in the request body.
 
-## Contributing
-
-(Section for future contributions - can be added later)
-
-## License
-
-(Section for license information - can be added later) 
