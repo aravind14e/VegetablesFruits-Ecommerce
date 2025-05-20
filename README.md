@@ -10,7 +10,6 @@ This application includes the following key features:
 *   **Admin Panel:** A dedicated interface for staff members to manage product inventory, including adding, viewing, editing, and deleting products (CRUD operations).
 *   **Product Catalog:** Browse available fruits and vegetables on the Shop page, with filtering options (Category, Organic, Seasonal, New Arrivals).
 *   **Shopping Cart:** Add, update quantities, and remove items from the shopping cart.
-*   **Wishlist:** Save products to a personal wishlist.
 *   **Checkout & Payments:** Integrated payment processing using Stripe for secure online transactions.
 *   **Order History:** Users can view their past orders.
 *   **User Profile:** (Implicit from auth, can be expanded)
