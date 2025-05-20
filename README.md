@@ -21,8 +21,20 @@ This application includes the following key features:
 *   **Frontend:** React, Zustand (for state management), React Router, Tailwind CSS
 *   **Backend:** Node.js, Express.js, MongoDB (with Mongoose), JSON Web Tokens (JWT) for authentication, bcryptjs (for password hashing), Stripe (for payments), dotenv
 
-## Setup and Installation
+## Screenshots
+*  **HomePage:**  ![Screenshot 2025-05-20 212059](https://github.com/user-attachments/assets/d6e226b2-783a-4c82-b0f5-c85815c8f97c)
 
+*  **ShopPage:**   ![Screenshot 2025-05-20 212115](https://github.com/user-attachments/assets/9a02fe1d-d612-4f94-8ad1-25ec47d8696d)
+
+*  **About:**   ![Screenshot 2025-05-20 212136](https://github.com/user-attachments/assets/771f7b2f-d1fe-4966-a9e0-529760c7dbdd)
+
+*  **Contact:**  ![Screenshot 2025-05-20 212158](https://github.com/user-attachments/assets/d51f9ff4-8c1c-4ea0-9f1a-b36610a49b0c)
+
+*  **Checkout:**  ![Screenshot 2025-05-20 212535](https://github.com/user-attachments/assets/7d70d345-de6d-439c-8311-62aca89f9455)
+
+*  **AdminPanel:** ![Screenshot 2025-05-20 212515](https://github.com/user-attachments/assets/f9fb8112-e1ed-4b66-b9f7-d87eafa0c78c)
+
+## Setup and Installation
 Follow these steps to set up and run the project locally:
 
 1.  **Clone the Repository:**
