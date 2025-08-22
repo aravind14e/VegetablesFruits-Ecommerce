@@ -18,6 +18,11 @@ const productRoutes = require('./routes/products');
 const paymentRoutes = require('./routes/payment');
 const orderRoutes = require('./routes/orders');
 
+// 👉 Root route (this fixes "Cannot GET /")
+app.get("/", (req, res) => {
+  res.send("✅ Backend is running! Use /api/auth, /api/products, /api/payment, or /api/orders");
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
@@ -26,4 +31,4 @@ app.use('/api/orders', orderRoutes);
 
 const PORT = process.env.PORT || 5001;
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); 
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
